@@ -35,6 +35,9 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'OneTestOC' => ['OneTestOC/Assets/*.png']
   # }
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
