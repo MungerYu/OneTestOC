@@ -36,6 +36,10 @@ TODO: Add long description of the pod here.
   #   'OneTestOC' => ['OneTestOC/Assets/*.png']
   # }
   
+  #https://github.com/CocoaPods/cocoapods-packager/issues/259
+  #/Library/Ruby/Gems/2.6.0/gems/cocoapods-packager-1.5.0/lib/cocoapods-packager/pod_utils.rb
+  #更改这个文件说明
+  
   #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
