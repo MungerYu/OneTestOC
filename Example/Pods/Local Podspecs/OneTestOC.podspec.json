@@ -1,0 +1,22 @@
+{
+  "name": "OneTestOC",
+  "version": "0.1.0",
+  "summary": "A short description of OneTestOC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mungeryu/OneTestOC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mungeryu": "linming348@126.com"
+  },
+  "source": {
+    "git": "https://github.com/mungeryu/OneTestOC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "OneTestOC/Classes/**/*"
+}

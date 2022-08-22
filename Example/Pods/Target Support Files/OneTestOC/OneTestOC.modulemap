@@ -1,0 +1,6 @@
+framework module OneTestOC {
+  umbrella header "OneTestOC-umbrella.h"
+
+  export *
+  module * { export * }
+}

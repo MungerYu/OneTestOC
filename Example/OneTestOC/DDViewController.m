@@ -7,6 +7,7 @@
 //
 
 #import "DDViewController.h"
+#import <OneTestOC/TestViewController.h>
 
 @interface DDViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [TestViewController printTest];
 }
 
 - (void)didReceiveMemoryWarning

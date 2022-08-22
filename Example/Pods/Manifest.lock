@@ -1,0 +1,16 @@
+PODS:
+  - OneTestOC (0.1.0)
+
+DEPENDENCIES:
+  - OneTestOC (from `../`)
+
+EXTERNAL SOURCES:
+  OneTestOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OneTestOC: 27d0a4c21d1f376c5533659a05122994eab3c2a3
+
+PODFILE CHECKSUM: e768921b4369be48c6371bf2a8f652f4d09a65b3
+
+COCOAPODS: 1.11.2
