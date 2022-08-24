@@ -25,7 +25,8 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mungeryu' => 'linming348@126.com' }
-  s.source           = { :git => 'https://github.com/mungeryu/OneTestOC.git', :tag => s.version.to_s }
+  # s.source           = { :git => 'https://github.com/mungeryu/OneTestOC.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/MungerYu/OneTestOC/blob/main/OneTestOC.framework.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
