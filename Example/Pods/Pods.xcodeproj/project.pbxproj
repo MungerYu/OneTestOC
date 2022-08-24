@@ -15,6 +15,7 @@
 		56B5F1DF2B870D6E6CDED76A6A4ADB72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		619C70F053A6FE23D65B1791A0C33A17 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C48523500286F0510757989037E60F87 /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64512F25CBA93D31F5DE63D45733C3E3 /* OneTestOC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 549EB548D569FBAAB78BC36A2D1FA92F /* OneTestOC-dummy.m */; };
+		84A755F328B637CB00EC6F89 /* OneTestOC.h in Sources */ = {isa = PBXBuildFile; fileRef = 84A755F228B6375D00EC6F89 /* OneTestOC.h */; };
 		A4BF90D32585A66007877B8F232C94F1 /* Pods-OneTestOC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F160C5C6E573553CBE4B8F5EBB2C2AE4 /* Pods-OneTestOC_Tests-dummy.m */; };
 		F69F5110091EE12634295E46B1A0F949 /* OneTestOC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C646EC0C4D69C151DF11315FCB03FB /* OneTestOC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEFB4FE71731510E9DEBDEDA33240D38 /* Pods-OneTestOC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D3E751AE64D02E2B49754051A004A /* Pods-OneTestOC_Example-dummy.m */; };
@@ -53,6 +54,7 @@
 		7DC5DB53662514252FA79D3B4A74F2A3 /* Pods-OneTestOC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneTestOC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		811968FA1956022A07C9BF5338EAD203 /* Pods-OneTestOC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneTestOC_Tests-Info.plist"; sourceTree = "<group>"; };
 		812D085656F56C1F49BF5BFE54EC17B6 /* Pods-OneTestOC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneTestOC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84A755F228B6375D00EC6F89 /* OneTestOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneTestOC.h; sourceTree = "<group>"; };
 		90827BAD3FFCFA7305E0B6DEDFD57FC5 /* OneTestOC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OneTestOC; path = OneTestOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99782862BB3BE8041DCC843BACFFF630 /* Pods-OneTestOC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneTestOC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C1988E550FB0373A09CD2EF0FA7B14F /* Pods-OneTestOC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneTestOC_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		A80E8B5D009F0AA98DB413B9CE2DE6BA /* OneTestOC */ = {
 			isa = PBXGroup;
 			children = (
+				84A755F228B6375D00EC6F89 /* OneTestOC.h */,
 				C48523500286F0510757989037E60F87 /* TestViewController.h */,
 				A55C98830460A540C008B36B6E335551 /* TestViewController.m */,
 				953D4C0B4C0E505E6D90BEE6D845095B /* Pod */,
@@ -371,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A755F328B637CB00EC6F89 /* OneTestOC.h in Sources */,
 				64512F25CBA93D31F5DE63D45733C3E3 /* OneTestOC-dummy.m in Sources */,
 				465F44C22C2A47518C2CD100E2428706 /* TestViewController.m in Sources */,
 			);
