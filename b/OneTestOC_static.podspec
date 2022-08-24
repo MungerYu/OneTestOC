@@ -21,17 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/mungeryu/OneTestOC'
+  s.homepage         = 'https://github.com/mungeryu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mungeryu' => 'linming348@126.com' }
-  # s.source           = { :git => 'https://github.com/mungeryu/OneTestOC.git', :tag => s.version.to_s }
-  s.source           = { :http => 'https://github.com/MungerYu/OneTestOC/blob/main/OneTestOC.framework.zip', :tag => s.version.to_s}
+  s.source           = { :git => 'https://github.com/mungeryu/OneTestOC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'OneTestOC/OneTestOC.h'
+  s.source_files = 'OneTestOC/Classes/**/*'
+  
+  # 是否是静态库 这个地方很重要 假如不写这句打出来的包 就是动态库 不能使用 一运行会报错 image not found
+  s.static_framework  =  true
+  # 链接设置 重要
+  s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
+  s.swift_versions = ['4.2', '5.0']
   
   # s.resource_bundles = {
   #   'OneTestOC' => ['OneTestOC/Assets/*.png']
